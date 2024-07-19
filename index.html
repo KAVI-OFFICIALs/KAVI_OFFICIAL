@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2196F3;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #FFC107;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background-color: #FFF;
+            border: 2px solid #2196F3;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card h3 {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #2196F3;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selles.LK</h1>
+    </header>
+    <nav>
+        <a href="#sell">Sell Items</a>
+        <a href="#social">Social Media</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#feedback">Your Feedback</a>
+        <a href="#info">Info Business</a>
+        <a href="#settings">App Settings</a>
+    </nav>
+    <div class="container">
+        <div class="card" id="sell">
+            <h3>Sell Items</h3>
+            <p>Details about selling items</p>
+        </div>
+        <div class="card" id="social">
+            <h3>Social Media</h3>
+            <p>Details about social media</p>
+        </div>
+        <div class="card" id="contact">
+            <h3>Contact Us</h3>
+            <p>Details about contacting us</p>
+        </div>
+        <div class="card" id="feedback">
+            <h3>Your Feedback</h3>
+            <p>Details about feedback</p>
+        </div>
+        <div class="card" id="info">
+            <h3>Info Business</h3>
+            <p>Details about business info</p>
+        </div>
+        <div class="card" id="settings">
+            <h3>App Settings</h3>
+            <p>Details about app settings</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Selles.LK</p>
+    </footer>
+</body>
+</html>
