@@ -3,104 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colorful Website</title>
+    <title>KAVI_OFFICIAL WEB</title>
     <style>
         body {
+            background-color: black;
+            color: white;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #2196F3;
-            color: white;
-            padding: 10px 0;
             text-align: center;
-        }
-        nav {
-            background-color: #FFC107;
-            text-align: center;
-            padding: 10px 0;
-        }
-        nav a {
-            margin: 0 15px;
-            color: #333;
-            text-decoration: none;
-            font-size: 18px;
         }
         .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
             padding: 20px;
         }
+        h1 {
+            color: red;
+        }
+        .description {
+            margin-bottom: 30px;
+        }
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
         .card {
-            background-color: #FFF;
-            border: 2px solid #2196F3;
+            background-color: #333;
             border-radius: 10px;
             margin: 10px;
             padding: 20px;
-            width: 200px;
-            text-align: center;
-            transition: transform 0.2s;
+            width: 150px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
         }
-        .card:hover {
-            transform: scale(1.05);
+        .card img {
+            width: 100%;
+            border-radius: 50%;
         }
         .card h3 {
-            margin: 10px 0;
+            color: blue;
         }
-        footer {
-            background-color: #2196F3;
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: green;
             color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .card a:hover {
+            background-color: red;
+        }
+        .bottom-description {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #222;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Selles.LK</h1>
-    </header>
-    <nav>
-        <a href="#sell">Sell Items</a>
-        <a href="#social">Social Media</a>
-        <a href="#contact">Contact Us</a>
-        <a href="#feedback">Your Feedback</a>
-        <a href="#info">Info Business</a>
-        <a href="#settings">App Settings</a>
-    </nav>
     <div class="container">
-        <div class="card" id="sell">
-            <h3>Sell Items</h3>
-            <p>Details about selling items</p>
+        <h1>KAVI_OFFICIAL</h1>
+        <p class="description">A passionate social media enthusiast with a knack for creative content creation.</p>
+        
+        <div class="cards">
+            <div class="card">
+                <img src="profile1.jpg" alt="Profile 1">
+                <h3>Facebook</h3>
+                <a href="#">Follow</a>
+            </div>
+            <div class="card">
+                <img src="profile2.jpg" alt="Profile 2">
+                <h3>Twitter</h3>
+                <a href="#">Follow</a>
+            </div>
+            <div class="card">
+                <img src="profile3.jpg" alt="Profile 3">
+                <h3>Instagram</h3>
+                <a href="#">Follow</a>
+            </div>
+            <div class="card">
+                <img src="profile4.jpg" alt="Profile 4">
+                <h3>LinkedIn</h3>
+                <a href="#">Follow</a>
+            </div>
+            <div class="card">
+                <img src="profile5.jpg" alt="Profile 5">
+                <h3>YouTube</h3>
+                <a href="#">Subscribe</a>
+            </div>
+            <div class="card">
+                <img src="profile6.jpg" alt="Profile 6">
+                <h3>Snapchat</h3>
+                <a href="#">Follow</a>
+            </div>
         </div>
-        <div class="card" id="social">
-            <h3>Social Media</h3>
-            <p>Details about social media</p>
-        </div>
-        <div class="card" id="contact">
-            <h3>Contact Us</h3>
-            <p>Details about contacting us</p>
-        </div>
-        <div class="card" id="feedback">
-            <h3>Your Feedback</h3>
-            <p>Details about feedback</p>
-        </div>
-        <div class="card" id="info">
-            <h3>Info Business</h3>
-            <p>Details about business info</p>
-        </div>
-        <div class="card" id="settings">
-            <h3>App Settings</h3>
-            <p>Details about app settings</p>
+
+        <div class="bottom-description">
+            <p>John Doe is a creative content creator with years of experience in managing multiple social media platforms, engaging audiences, and building a strong online presence. Follow along to stay updated with the latest trends and insights in the social media world.</p>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2024 Selles.LK</p>
-    </footer>
 </body>
 </html>
